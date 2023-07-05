@@ -68,9 +68,9 @@ sudo systemctl start disable-transparent-huge-pages.service
 echo -e "\n[+] Adding OpenSearch user\n"
 sudo adduser --system --disabled-password --disabled-login --home /var/empty --no-create-home --quiet --force-badname --group opensearch
 
-# Download Opensearch 2.6.0
+# Download Opensearch 2.8.0
 echo -e "\n[+] Downloading OpenSearch packages \n"
-wget https://artifacts.opensearch.org/releases/bundle/opensearch/2.6.0/opensearch-2.6.0-linux-x64.tar.gz
+wget https://artifacts.opensearch.org/releases/bundle/opensearch/2.8.0/opensearch-2.8.0-linux-x64.tar.gz
 
 # Create Directories
 echo -e "\n[+] Creating directories \n"
@@ -79,8 +79,8 @@ sudo mkdir /var/log/opensearch
 
 # Extract Contents from tar
 echo -e "\n[+] Extracting contents \n"
-sudo tar -zxf opensearch-2.6.0-linux-x64.tar.gz
-sudo mv opensearch-2.6.0/* /graylog/opensearch/
+sudo tar -zxf opensearch-2.8.0-linux-x64.tar.gz
+sudo mv opensearch-2.8.0/* /graylog/opensearch/
 
 # Set Permissions
 echo -e "\n[+] Setting permissions \n"
