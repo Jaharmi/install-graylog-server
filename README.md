@@ -8,7 +8,7 @@ web server is http after setup<br>
 install-graylog-server.sh - temporary unencrypted 'secrets' files created.<br>
 <br>
 Ubuntu 22.04 Jammy<br>
-OpenSearch 2.6.0<br>
+OpenSearch 2.8.0<br>
 MongoDB 6.0<br>
 Graylog Open 5.0<br>
 <br>
